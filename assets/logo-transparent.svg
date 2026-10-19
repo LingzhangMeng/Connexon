@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="connexon-title">
+  <title id="connexon-title">Connexon — two cells, one channel</title>
+  <path d="M244 38.857 L32 160 L32 352 L244 473.143 Z" fill="#2A9D8F"/>
+  <path d="M268 38.857 L480 160 L480 352 L268 473.143 Z" fill="#E9A23B"/>
+  <rect x="244" y="38.857" width="24" height="434.286" fill="#0B1B2B"/>
+  <circle cx="256" cy="256" r="12" fill="#F7F3E9"/>
+</svg>

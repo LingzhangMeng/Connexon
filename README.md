@@ -1,3 +1,5 @@
+![Connexon logo](assets/logo-128.png)
+
 # Connexon
 
 <p align="center"><strong>One channel for R and Python.</strong></p>
@@ -276,6 +278,7 @@ ROCm does not support. Connexon detects it, marks `compute: false`, and plans a
 Connexon/
 ├── .github/
 │   └── workflows/ci.yml
+├── assets/                   logo, favicon and social preview
 ├── crates/
 │   ├── connexon-core/       values, tables, CSV/JSON, parallel statistics
 │   ├── connexon-syntax/     lexer, AST, parser
@@ -315,6 +318,7 @@ Connexon/
 | [`docs/API_REFERENCE.md`](docs/API_REFERENCE.md) | Every builtin and bridge function with signatures and examples |
 | [`docs/DEVELOPER_GUIDE.md`](docs/DEVELOPER_GUIDE.md) | Architecture, adding builtins, testing, release checklist |
 | [`docs/FAQ.md`](docs/FAQ.md) | Common questions, design rationale, troubleshooting |
+| [`docs/BRAND.md`](docs/BRAND.md) | Logo concept, palette, clear space and usage |
 | [`docs/LANGUAGE.md`](docs/LANGUAGE.md) | Formal EBNF, precedence, type rules, scoping |
 | [`docs/DESIGN.md`](docs/DESIGN.md) | Architecture decisions and data contracts |
 | [`docs/ROADMAP.md`](docs/ROADMAP.md) | Phase 1–3 plan and risks |

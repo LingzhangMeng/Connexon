@@ -30,6 +30,7 @@ docs:
 	pandoc docs/API_REFERENCE.md --reference-doc=$(REF) -o docs/API_REFERENCE.docx
 	pandoc docs/DEVELOPER_GUIDE.md --reference-doc=$(REF) -o docs/DEVELOPER_GUIDE.docx
 	pandoc docs/FAQ.md --reference-doc=$(REF) -o docs/FAQ.docx
+	pandoc docs/BRAND.md --resource-path=docs --reference-doc=$(REF) -o docs/BRAND.docx
 	pandoc docs/LANGUAGE.md --reference-doc=$(REF) -o docs/LANGUAGE.docx
 	pandoc docs/DESIGN.md --reference-doc=$(REF) -o docs/DESIGN.docx
 	pandoc docs/ROADMAP.md --reference-doc=$(REF) -o docs/ROADMAP.docx
