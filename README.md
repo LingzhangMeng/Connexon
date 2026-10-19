@@ -1,4 +1,8 @@
+<div align="center">
+
 ![Connexon logo](assets/logo-128.png)
+
+</div>
 
 # Connexon
 
