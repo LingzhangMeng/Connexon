@@ -1,0 +1,11 @@
+[package]
+name = "connexon-syntax"
+description = "Connexon lexer, AST and parser"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+thiserror.workspace = true

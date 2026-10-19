@@ -1,0 +1,9 @@
+# Connexon Phase 0 - R and Python execute in separate processes.
+# The runtime passes JSON through temporary files; no live interpreter is embedded.
+let values = [1, 2, 3, 4, 5]
+let r_mean = r::call("mean", values)
+let r_sd = r::call("stats::sd", values)
+let py_sd = py::call("statistics", "stdev", values)
+print(r_mean)
+print(r_sd)
+print(py_sd)

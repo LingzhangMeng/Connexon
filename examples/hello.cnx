@@ -1,0 +1,8 @@
+# Connexon Phase 0 - values and builtins
+let values = [1, 2, 3, 4, 5]
+let total = sum(values)
+let average = mean(values)
+let deviation = sd(values)
+print(total)
+print(average)
+print(deviation)

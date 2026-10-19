@@ -1,0 +1,6 @@
+# Connexon Phase 0 - user functions and expressions
+fn add(a, b) = a + b
+fn square(x) = x * x
+let result = square(add(2, 3))
+print(result)
+print(if result > 20 then "large" else "small")

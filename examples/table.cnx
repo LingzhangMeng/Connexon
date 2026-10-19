@@ -1,0 +1,8 @@
+# Connexon Phase 0 - table operations on a CSV
+let de = read_csv("examples/data/de_sample.csv")
+let significant = count_where(de, "padj", "<", 0.05)
+print(significant)
+let top = head(de, 3)
+print(top)
+let genes = select(de, "gene", "log2FoldChange")
+print(genes)

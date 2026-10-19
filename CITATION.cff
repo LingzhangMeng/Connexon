@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use Connexon, please cite it as below."
+type: software
+title: "Connexon: a Rust runtime and language for R, Python and AI"
+version: 0.1.0
+date-released: "2026-10-19"
+license: MIT
+repository-code: "https://github.com/LingzhangMeng/Connexon"
+url: "https://github.com/LingzhangMeng/Connexon"
+authors:
+  - family-names: Meng
+    given-names: Lingzhang
+    affiliation: "Research Center for Medical Big Data and Artificial Intelligence, The People's Hospital of Guangxi Zhuang Autonomous Region (Guangxi Academy of Medical Sciences)"
+keywords:
+  - bioinformatics
+  - data science
+  - artificial intelligence
+  - R
+  - Python
+  - Rust
+  - reproducible research
+  - single-cell
+abstract: >-
+  Connexon is a Rust runtime and language that composes R packages and Python
+  tools into one typed, parallel, reproducible program.

@@ -1,0 +1,10 @@
+# End-to-end mini-pipeline: CSV -> filter -> R -> Python.
+let de = read_csv("examples/data/de_sample.csv")
+let hits = de |> filter_where("padj", "<", 0.05)
+let n = length(hits)
+let log2fc = column(hits, "log2FoldChange")
+let r_mean = r::call("mean", log2fc)
+let py_sd = py::call("statistics", "stdev", log2fc)
+print(n)
+print(r_mean)
+print(py_sd)

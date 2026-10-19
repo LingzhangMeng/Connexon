@@ -1,0 +1,17 @@
+[package]
+name = "connexon-runtime"
+description = "Connexon evaluator, builtins, R/Python bridges and system planner"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+connexon-core.workspace = true
+connexon-syntax.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+thiserror.workspace = true
+rayon.workspace = true

@@ -1,0 +1,32 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/connexon-core",
+    "crates/connexon-syntax",
+    "crates/connexon-runtime",
+    "crates/connexon-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/connexon-lang/connexon"
+authors = ["Prof. Dr. rer. nat. Lingzhang Meng <lzmeng@gxams.org.cn>"]
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+csv = "1"
+tempfile = "3"
+thiserror = "2"
+rayon = "1"
+clap = { version = "4", features = ["derive"] }
+connexon-core = { path = "crates/connexon-core" }
+connexon-syntax = { path = "crates/connexon-syntax" }
+connexon-runtime = { path = "crates/connexon-runtime" }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+panic = "abort"

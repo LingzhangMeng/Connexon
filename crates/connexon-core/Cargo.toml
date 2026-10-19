@@ -1,0 +1,18 @@
+[package]
+name = "connexon-core"
+description = "Connexon core values, tables and CSV/JSON conversion"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+csv.workspace = true
+thiserror.workspace = true
+rayon.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
